@@ -1,0 +1,45 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.container{
+ position: absolute;
+ margin-left: 100px;
+ width:600px;
+}
+
+.container .user_info{
+ position: absolute;
+ margin-left: 100px;
+ width:600px;
+ height: fit-content;
+ border-style: solid;
+}
+
+.container .user_info .forminfo{
+  margin-left: 30px;
+  text-align: right;
+  width: 600px;
+}
+
+
+.container .user_info .forminfo .innerforminfo-l{
+    text-align: right;
+    float: left;
+    width: 150px;
+    /*border-style: solid;*/
+    position: relative;
+} 
+
+.container .user_info .forminfo .innerforminfo-r{
+    width: 333px;
+    /*border-style: solid;*/
+    position: relative;
+    margin-left: 1px;
+    float: left;
+    margin-bottom: 10px;
+    text-align: left;  
+    height: 31px;
+}

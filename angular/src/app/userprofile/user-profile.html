@@ -1,0 +1,40 @@
+<div class="container">
+    <h1>User Profile Page</h1>
+    <div class="datacomponent">
+        <img [attr.src]="imageurl">
+    </div>
+    <div id="username_fieldset" class="control-group">
+        <label class="control-label">Username</label> : <label>{{username}}</label>
+    </div>
+    <div>
+        <label>{{city}}</label>
+    </div>
+    <div class="user_info">
+        <div class="forminfo">
+            <div class="innerforminfo-l"> <label>
+                Contact Info:
+            </label></div>
+            <div class="innerforminfo-r"> {{contactNo}}
+            </div>
+            <br>
+            <div class="innerforminfo-l"> <label>
+                Email Id:
+            </label> </div>
+            <div class="innerforminfo-r"> {{email}}</div>
+            <br>
+            <div class="innerforminfo-l"><label>
+                City:
+            </label> </div>
+            <div class="innerforminfo-r">{{city}}</div>
+            <br>
+            <div class="innerforminfo-l"><label>
+                State:
+            </label></div>
+            <div class="innerforminfo-r"> {{state}}</div>
+            <br>
+            <div class="innerforminfo-l"><label>
+                Country:
+            </label> </div>
+            <div class="innerforminfo-r">{{country}}</div>
+        </div>
+    </div>
